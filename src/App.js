@@ -11,12 +11,8 @@ function App() {
     <div className="App">
     <h1>Hello World!</h1>
      <Greet name="Asmi" surname="Birje">
-      <p>
-        Age 2 years
-      </p>
      </Greet>
      <Greet name="Riya" surname="Sawant">
-      <p>Age 6 years</p>
      </Greet>
      <Welcome name="Jai" surname="Sawant"/>
      <Hello/>
