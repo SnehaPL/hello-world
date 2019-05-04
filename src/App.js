@@ -7,12 +7,16 @@ import Message from './component/Message.js';
 import Counter from './component/Counter.js';
 import FunctionClick from './component/FunctionClick.js';
 import ClassClick from './component/ClassClick.js';
+import BindInRender from './component/BindInRender.js';
+import ArrowFunInRender from './component/ArrowFunInRender.js';
+import BindInClass from './component/BindInClass.js';
+import ArrowFunAsClassPro from './component/ArrowFunAsClassPro.js';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+     {/* <h1>Hello World!</h1>
      <Greet name="Asmi" surname="Birje">
      </Greet>
      <Greet name="Riya" surname="Sawant">
@@ -20,10 +24,17 @@ function App() {
      <Welcome name="Jai" surname="Sawant"/>
      <Hello/>
      <Message/>
-     <Counter/>
+     <Counter/>*
 
      <FunctionClick/>
-     <ClassClick/>
+     <ClassClick/>*/}
+
+
+     <BindInRender/>
+     <ArrowFunInRender/>
+     <BindInClass/>
+     <ArrowFunAsClassPro/>
+
     </div>
   );
 }
